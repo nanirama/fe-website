@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --container-7xl: 1220px;
@@ -42,7 +42,7 @@ body {
   background-size: 100% 100%;
 }
 
-/* ── Footer background glows ─────────────────────────────────────── */
+
 .ftr_bg:after {
   content: '';
   position: absolute;
@@ -87,7 +87,6 @@ body {
   }
 }
 
-/* ── Case study backgrounds ──────────────────────────────────────── */
 .case_study_bg:before {
   content: '';
   position: absolute;
@@ -143,7 +142,6 @@ body {
   }
 }
 
-/* ── Media/blog content ──────────────────────────────────────────── */
 .media_content p {
   margin-bottom: 20px;
 }
@@ -158,7 +156,6 @@ body {
   list-style-position: inside;
 }
 
-/* ── Blue page background ────────────────────────────────────────── */
 .blue-bg:before {
   content: "";
   position: absolute;
@@ -190,7 +187,7 @@ body {
   color: #14B8A6;
 }
 
-/* ── Globe / industry image decorations ─────────────────────────── */
+
 .globe_img:after {
   content: '';
   position: absolute;
@@ -281,7 +278,7 @@ body {
   pointer-events: none;
 }
 
-/* ── ROI section ─────────────────────────────────────────────────── */
+
 .roi_bg {
   position: relative;
   z-index: 0;
@@ -319,7 +316,7 @@ body {
   pointer-events: none;
 }
 
-/* ── Globe contact section ───────────────────────────────────────── */
+
 .globe_contact {
   position: relative;
   z-index: 0;
@@ -341,7 +338,7 @@ body {
   opacity: 0.6;
 }
 
-/* ── HubSpot form ────────────────────────────────────────────────── */
+
 .hubspot-form-wrapper .hs-form-field {
   margin-bottom: 0.75rem !important;
 }
@@ -434,18 +431,6 @@ body {
   }
 }
 
-/* ─────────────────────────────────────────────────────────────────────────────
-   ScrollMorphImage — scroll nudge pulse animation
-   Add these rules to your globals.css (or any globally-imported CSS file).
-
-   WHY in globals.css and not inline <style> in the component:
-   - An inline <style> in a Client Component is re-injected into the CSSOM
-     on every client-side render, forcing a style recalculation each time.
-   - A global CSS rule is parsed once during initial page load and cached
-     by the browser's style engine — zero per-render cost.
-   - The animation runs on the GPU compositor thread regardless of where
-     the keyframes are defined, so there is no behaviour difference.
-   ───────────────────────────────────────────────────────────────────────────── */
 
 @keyframes nudge-pulse {
   0%,
@@ -465,7 +450,6 @@ body {
   opacity: 0.35;
 }
 
-/* Class added by JS only after requestIdleCallback — never fires during LCP */
 .scroll-nudge-active .scroll-nudge-line {
   animation: nudge-pulse 1.7s ease-in-out infinite;
-}
+} */
