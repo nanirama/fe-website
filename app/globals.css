@@ -45,3 +45,17 @@ body {
 .bg-full {
   background-size: 100% 100%;
 }
+
+.notfound-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url("/images/404-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+}
