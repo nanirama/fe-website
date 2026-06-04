@@ -1,6 +1,6 @@
  @import "tailwindcss";
 
-:root {
+/* :root {
   --container-7xl: 1220px;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .bg-full {
   background-size: 100% 100%;
-}
+} */
 /*
 .notfound-bg::after {
   content: "";
