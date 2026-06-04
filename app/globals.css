@@ -1,8 +1,8 @@
  @import "tailwindcss";
 
-/* :root {
+:root {
   --container-7xl: 1220px;
-} */
+}
 
 html {
   scroll-behavior: smooth;
