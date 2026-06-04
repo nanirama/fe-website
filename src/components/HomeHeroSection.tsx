@@ -150,51 +150,8 @@ const getPortableTextPlain = cache(
 );
 
 // ── Component (pure RSC — no "use client") ────────────────────────────────────
-const HomeHeroSection = () => {
-  const data = {
-    "_type": "homeHeroSection",
-    "description": [
-        {
-            "_key": "385c1668cb3d",
-            "_type": "block",
-            "children": [
-                {
-                    "_key": "e97619bc2fa0",
-                    "_type": "span",
-                    "marks": [],
-                    "text": "FieldEquip is the digital field service management platform that unifies dispatch, remote field execution, in-shop repair, and ERP on a single system built to compress your DSO and scale operational throughput without adding administrative headcount, with AI-powered dispatch agents and automated job documentation replacing manual work."
-                }
-            ],
-            "markDefs": [],
-            "style": "normal"
-        }
-    ],
-    "heading": "One Platform. Every Field Operation. End to End.",
-    "image": {
-        "_type": "image",
-        "alt": "Digital Field Service Management Software",
-        "asset": {
-            "_ref": "image-9b3cb50e60fdcb458eaf1c30ddc6bfb613a3a419-2312x1529-png",
-            "_type": "reference"
-        },
-        "dimensions": {
-            "_type": "sanity.imageDimensions",
-            "aspectRatio": 1.5120994113799868,
-            "height": 1529,
-            "width": 2312
-        }
-    },
-    "primaryButton": {
-        "buttonType": "primary",
-        "label": "Schedule a Demo",
-        "url": "/demo"
-    },
-    "secondaryButton": {
-        "buttonType": "secondary",
-        "label": "Calculate Your Revenue Leak",
-        "url": "/get-a-quote"
-    }
-};
+const HomeHeroSection = ({data}: { data: HeroSectionData }) => {
+ 
   const heading =
     data?.heading ?? "One Platform. Every Field Operation. End to End.";
   const description =
