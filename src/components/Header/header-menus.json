@@ -1,0 +1,135 @@
+{
+  "COMPANY_MENU": [
+    {
+      "title": "Why FieldEquip",
+      "href": "/why-fieldequip",
+      "description": "One Platform. One Team. Full Accountability."
+    },
+    {
+      "title": "Integrations",
+      "href": "/integrations",
+      "description": "Direct Integration with Your Core Systems"
+    },
+    {
+      "title": "Trust & Security",
+      "href": "/trust-and-security",
+      "description": "Security and Reliability Built Into the Platform"
+    },
+    {
+      "title": "Careers",
+      "href": "/careers",
+      "description": "Build Systems That Run Real Operations"
+    },
+    {
+      "title": "About",
+      "href": "/about-us",
+      "description": "Built from Field Experience. Delivered as a Modern Platform."
+    }
+  ],
+  "INDUSTRIES_MENU": [
+    {
+      "title": "Oil & Gas",
+      "href": "/oil-and-gas",
+      "description": "Purpose-built for complex field operations where uptime, accuracy, and coordination are critical.",
+      "imageSrc": "/images/oil-gas.webp",
+      "imageAlt": "Oil and gas industrial facility"
+    },
+    {
+      "title": "Industrial Service",
+      "href": "/industrial-service",
+      "description": "Solutions built for complex, high-volume service operations across industries.",
+      "imageSrc": "/images/industrial-service.webp",
+      "imageAlt": "Industrial service plant with chimneys"
+    }
+  ],
+  "PRODUCTS_MENU": [
+    {
+      "title": "Field Service Management",
+      "href": "/field-service-management-software",
+      "children": [
+        {
+          "title": "Work Order Management",
+          "href": "/field-service-work-order-management"
+        },
+        {
+          "title": "Dispatching & Scheduling",
+          "href": "/field-service-scheduling-dispatch-software"
+        },
+        {
+          "title": "Digital Field Ticketing",
+          "href": "/digital-field-ticketing-software"
+        },
+        {
+          "title": "Time Management",
+          "href": "/field-service-time-tracking-software"
+        }
+      ]
+    },
+    {
+      "title": "Equipment Rental",
+      "href": "/equipment-rental-management-software",
+      "children": [
+        {
+          "title": "Rental management",
+          "href": "/equipment-rental-management-software-2"
+        },
+        {
+          "title": "Inventory Management",
+          "href": "/field-inventory-management-software"
+        },
+        {
+          "title": "Equipment Location Tracking",
+          "href": "/equipment-location-tracking"
+        },
+        {
+          "title": "Invoicing & Billing",
+          "href": "/field-service-invoicing-software"
+        }
+      ]
+    },
+    {
+      "title": "Oilfield Logistics",
+      "href": "/oil-field-services",
+      "children": [
+        {
+          "title": "Dispatch & Load Management",
+          "href": "/oilfield-dispatch-load-management-software/"
+        },
+        {
+          "title": "Field Ticketing",
+          "href": "/field-ticketing"
+        },
+        {
+          "title": "Compliance & Inspections",
+          "href": "/field-inspection-software"
+        },
+        {
+          "title": "Invoicing & Billing",
+          "href": "/invoicing-billing"
+        }
+      ]
+    }
+  ],
+  "RESOURCES_MENU": [
+    {
+      "title": "Case Studies",
+      "href": "/case-studies",
+      "description": "How teams improve operations and scale"
+    },
+    {
+      "title": "White Paper & Guides",
+      "href": "/whitepaper",
+      "description": "Frameworks for modern field service systems"
+    },
+    {
+      "title": "Videos & Testimonials",
+      "href": "/fieldequip-videos",
+      "description": "How teams use FieldEquip in practice"
+    },
+    {
+      "title": "Blogs / Field Notes",
+      "href": "/blog",
+      "description": "Insights on field service and operations"
+    }
+  ]
+}
