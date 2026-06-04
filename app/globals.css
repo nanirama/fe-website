@@ -28,3 +28,19 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
 }
+
+.font-manroper {
+  font-family: var(--font-manrope);
+}
+
+.bg-brand {
+  background-color: #162a4a;
+}
+
+.bg-base {
+  background-color: #162a4a;
+}
+
+.bg-full {
+  background-size: 100% 100%;
+}
