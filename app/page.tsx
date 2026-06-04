@@ -1,3 +1,7 @@
+"use cache";
+
+import { cache } from "react";
+import { cacheTag, cacheLife } from "next/cache";
 import type { Metadata } from "next";
 
 import { loadHome } from "@/src/sanity/loader/loadQuery";
@@ -17,8 +21,17 @@ type HomeDoc = {
   sections?: unknown[];
 };
 
+async function fetchHomeData() {
+  'use cache: remote';
+  cacheTag('home');
+  cacheLife({ revalidate: 3600 });
+  return await loadHome();
+}
+
+const getHomeData = cache(fetchHomeData);
+
 export async function generateMetadata(): Promise<Metadata> {
-  const home = await loadHome();
+  const home = await getHomeData();
   const data = home.data as HomeDoc | null | undefined;
 
   return seoGenerateMetadata({
@@ -30,7 +43,10 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Home() {
-  const home = await loadHome();
+  cacheTag('home');
+  cacheLife({ revalidate: 3600 });
+
+  const home = await getHomeData();
   const homeData = (home as { data?: HomeDoc }).data;
   return (
     <BaseLayout layout="dark">
